@@ -1,0 +1,17 @@
+# VIM temporary files
+*.swp
+*.swo
+*.swn
+*.un~
+
+# VIM files
+.netrwhist
+Session.vim
+
+# Python compiled objects
+*.pyc
+
+# MacOSX
+.DS_Store
+.AppleDouble
+.LSOverride

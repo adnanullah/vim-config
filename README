@@ -1,0 +1,29 @@
+Getting started
+===============
+sudo apt-get install vim
+git clone https://github.com/adnanullah/vim-config.git ~
+git submodule init && git submodule update
+ln -s ~/vim-config/vim ~/.vim
+ln -s ~/vim-config/vimrc ~/.vimrc
+
+Submodules used:
+===============
+git://github.com/tpope/vim-sensible.git
+git://github.com/tpope/vim-fugitive.git
+git://github.com/altercation/vim-colors-solarized.git
+https://github.com/paranoida/vim-airlineish.git
+https://github.com/bling/vim-airline
+https://github.com/joonty/vdebug.git
+git://github.com/vim-scripts/supertab.git
+git://github.com/msanders/snipmate.vim.git
+https://github.com/mitechie/pyflakes-pathogen.git
+https://github.com/quanganhdo/grb256.git
+git://github.com/Raimondi/delimitMate.git
+https://github.com/kien/ctrlp.vim.git
+https://github.com/chrisbra/csv.vim.git
+
+
+TODO:
+==============
+* Create install script for vim setup/submodules
+* Support .gvim settings
